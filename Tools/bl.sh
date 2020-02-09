@@ -46,7 +46,7 @@ echo " "
 date |lolcat
 sleep 4
 
-eho "SCRIPT YANG TERSEDIA" |lolcat
+echo "SCRIPT YANG TERSEDIA" |lolcat
 echo "   "
 
 echo "                    "
