@@ -6,14 +6,14 @@
 #Awas aja lu anjing sampe ketauan Recode abis lu monyet
 
 clear
-bi='' #biru
-i='' #ijo
-pur='' #purple
-cy='' #cyan
-me='' #merah
-pu='' #putih
-ku='' #kuning
-mer='' #Tepi
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+mer='\033[41;97m' #Tepi
 R='\x1b[1;31m'
 G='\x1b[1;32m'
 B='\x1b[1;34m'
@@ -46,6 +46,9 @@ echo " "
 date |lolcat
 sleep 4
 
+eho "SCRIPT YANG TERSEDIA" |lolcat
+echo "   "
+
 echo "                    "
 echo $me"       ▒▒▒▒▒▒▐███████▌"
 echo $ku"       ▒▒▒▒▒▒▐░▀░▀░▀░▌"
@@ -53,9 +56,6 @@ echo $i"       ▒▒▒▒▒▒▐▄▄▄▄▄▄▄▌"
 echo $bi"       ▄▀▀▀█▒▐░▀▀▄▀▀░▌▒█▀▀▀▄"
 echo $pur"       ▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐"
 
-
-echo "SCRIPT YANG TERSEDIA" |lolcat
-echo "                    "
 echo "----------------------------------------------" |lolcat
 echo "\033[1;31m (1).Script install GABUT"
 sleep 1
