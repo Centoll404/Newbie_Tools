@@ -196,7 +196,7 @@ echo $me" (46).Script FakeCALL"
 sleep 1
 echo "----------------------------------------------" |lolcat
 echo $ku" (47).Script DDOS HAMER"
-sleep.1
+sleep 1
 echo "----------------------------------------------" |lolcat
 echo $i" (48).Script HackFB BRUTEFORCE"
 sleep 1
