@@ -22,11 +22,8 @@ C='\x1b[1;36m'
 D='\x1b[0m'
 endc='\E[0m'
 
-ulang="y"
-while [ $ulang = "y" ];
-do
 
-ear
+clear
 bi='' #biru
 i='' #ijo
 pur='' #purple
@@ -800,5 +797,4 @@ else
    echo "HARAP MASUKAN INPUT DENGAN BENAR"
    echo $ulang
 fi
-done
 
