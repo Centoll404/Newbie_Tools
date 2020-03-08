@@ -23,3 +23,5 @@ sh Bogeng.sh
 # Lalu kalian install bahan dulu supaya work
 
 # Untuk username & pass nya silahkan liat dulu 
+
+# Jangan lupa subscribe
